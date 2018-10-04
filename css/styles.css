@@ -1,0 +1,4 @@
+header::before {
+  content: 'Number';
+  color: red;
+}
