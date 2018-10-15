@@ -8,32 +8,39 @@
   <header>
     Guesser
   </header>
+  <div class="center">
   <section>
     <form>
-    <input id="input-box" type="text" pattern="[1-9][1-9]?" placeholder="Enter your guess">
-  </section>
-  <section>
-    <button id="guess" type="submit">Guess</button>
-    <button id="clear">Clear</button>
-  </form>
+      jsho<br>
+      <input id="input-box" class="margins" type="number" placeholder="Enter your guess" title="Must enter number between 1 and 100">
+    </section>
+    <section>
+      <button id="guess-button" class="margins" type="submit">Guess</button>
+      <button id="clear-button" class="margins" type="button" >Clear</button>
+    </form>
   </section>
   <main>
-    <section>
+    <section id="title-last-guess">
       Your last guess was
     </section>
     <section id="last-guess" class="hidden">
-      Loading...
+      Loading... last guess
     </section>
     <section id="high-low-boom" class="hidden">
       Loading...
     </section>
-    <button id="reset">Reset</button>
-   </main>
+    <span></span>
+    <div>
+    <button>Increase</button>
+    <button>Decrease</button>
+    </div>
+    <button id="reset" type="reset">Reset</button>
+  </main>
+</div>
   <script
   src="https://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   crossorigin="anonymous"></script>
   <script src="js/script.js"></script>
-
 </body>
 </html>

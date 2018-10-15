@@ -1,4 +1,52 @@
+body{
+  text:"Open Sans bold light 300";
+  text-align: center;
+  font-size: 3rem;
+}
+/*form{
+  display: inline-block;
+}*/
+header{
+  color: #e6e7e8;
+  background: #404041;
+  font-size: 3rem;
+  text-align: center;
+}
 header::before {
   content: 'Number';
-  color: red;
+  color: #ed458b;
+}
+
+
+button {
+  color:#FFF;
+  background-color: #929497;
+}3
+button:hover{
+  background-color: #eb008b;
+}
+button:disabled{
+  background-color: #d0d2d3;
+}
+
+.error::after{
+  content: 'NOT A NUMBER or OUT OF RANGE';
+  background-color: red;
+}
+
+.hidden{
+
+}
+.class {
+  text-align: center;
+}
+.margins{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+#title-last-guess{
+  color:#404041;
+}
+#last-guess{
+  color:#eb008b;
 }
